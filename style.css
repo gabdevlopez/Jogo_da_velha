@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template: auto auto auto / auto auto auto;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 5px;
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    
+}
+
+.quad{
+    width: 100px;
+    height: 100px;
+    background-color: #d5b59c;
+    border: solid 0.5px rgb(80, 79, 79);
+}
+
+.botao{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
